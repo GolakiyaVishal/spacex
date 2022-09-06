@@ -1,7 +1,11 @@
 {
-    "@@locale": "en",
-    "counterAppBarTitle": "Counter",
-    "@counterAppBarTitle": {
-        "description": "Text shown in the AppBar of the Counter Page"
-    }
+  "@@locale": "en",
+  "homeAppBarTitle": "SpaceX",
+  "@homeAppBarTitle": {
+    "description": "Text shown in the AppBar of the Home screen."
+  },
+  "homeFetchRocketsErrorMessage": "Something went wrong while fetching rockets, Please try again letter.",
+  "@homeFetchRocketsErrorMessage": {
+    "description": "Error text shown on Home screen when error occurs while fetching the rockets"
+  }
 }
