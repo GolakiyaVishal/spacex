@@ -22,7 +22,7 @@ Rocket _$RocketFromJson(Map<String, dynamic> json) => Rocket(
       boosters: json['boosters'] as int?,
       costPerLaunch: json['cost_per_launch'] as int?,
       successRatePct: json['success_rate_pct'] as int?,
-      firstFlight: json['first_flight'] as String?,
+      firstFlight: json['first_flight'] as DateTime?,
       country: json['country'] as String?,
       company: json['company'] as String?,
       wikipedia: json['wikipedia'] as String?,

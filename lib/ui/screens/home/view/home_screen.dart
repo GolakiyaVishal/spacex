@@ -4,6 +4,7 @@ import 'package:rocket_repository/rocket_repository.dart';
 import 'package:spacex/l10n/l10n.dart';
 import 'package:spacex/ui/screens/home/cubit/home_cubit.dart';
 import 'package:spacex/ui/screens/home/cubit/home_state.dart';
+import 'package:spacex/ui/screens/rocket_detail/view/rocket_detail_screen.dart';
 import 'package:spacex_api/spacex_api.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -79,6 +80,9 @@ class _RocketList extends StatelessWidget {
         for (final rocket in rockets) ...[
           ListTile(
             isThreeLine: true,
+            onTap: (){
+              Navigator.push(context, RocketDetailScreen.route(rocket: rocket));
+            },
             title: Text(rocket.name),
             subtitle: Text(
               rocket.description,

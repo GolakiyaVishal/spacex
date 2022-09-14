@@ -6,6 +6,19 @@
   },
   "homeFetchRocketsErrorMessage": "Something went wrong while fetching rockets, Please try again letter.",
   "@homeFetchRocketsErrorMessage": {
-    "description": "Error text shown on Home screen when error occurs while fetching the rockets"
+    "description": "Error text shown on Home screen when error occurs while fetching the rockets."
+  },
+  "rocketDetailsFirstFlightSubtitle": "First launch: {date}",
+  "@rocketDetailsFirstFlightSubtitle": {
+    "description": "Subtitle text shown on rocket detail screen that indicates when was the first launch of rocket.",
+    "placeholders":{
+      "date":{
+        "example": "08-12-1992"
+      }
+    }
+  },
+  "rocketDetailScreenOpenWikipediaButtonText": "Open Wikipedia",
+  "@rocketDetailScreenOpenWikipediaButtonText": {
+    "description": "Button text shown on the Rocker Detail Screen that opens corresponding Wikipedia page"
   }
 }

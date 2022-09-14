@@ -62,7 +62,9 @@ void main() {
     testWidgets(
       'renders empty page when status is initial',
       (widgetTester) async {
-        const key = Key('homeView_initial_sizedBox');
+        // const key = Key('homeView_initial_sizedBox');
+        // const key = Key('homeView_loading_progressIndicator');
+        const key = Key('homeView_success_rocketList');
 
         await widgetTester.pumpApp(
           BlocProvider.value(

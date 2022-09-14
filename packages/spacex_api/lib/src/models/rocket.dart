@@ -71,7 +71,7 @@ class Rocket extends Equatable {
   final int? successRatePct;
 
   /// The date first rocket was launch.
-  final String? firstFlight;
+  final DateTime? firstFlight;
 
   /// The country in which the rocket was build.
   final String? country;
